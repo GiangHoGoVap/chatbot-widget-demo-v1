@@ -1,0 +1,39 @@
+.bot-msg {
+    display: flex;
+    align-items: center;
+}
+
+.bot-msg .msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    word-break: break-all;
+}
+
+.avatar-style {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-msg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-msg .msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.75rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    word-break: break-all;
+}

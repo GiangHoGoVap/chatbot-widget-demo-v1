@@ -1,0 +1,14 @@
+<div *ngIf="message.isBot; else elseBlock" class="bot-msg">
+    <img [src]="message.avatar" class="avatar-style">
+    <span class="msg">
+        {{message.content}}
+    </span>
+</div>
+<ng-template #elseBlock>
+    <div class="user-msg">
+        <span class="msg">
+            {{message.content}}
+        </span>
+        <img [src]="message.avatar" class="avatar-style">
+    </div>
+</ng-template>

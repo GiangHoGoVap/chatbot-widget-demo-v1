@@ -1,0 +1,13 @@
+<section>
+    <button mat-fab class="chat-btn" (click)="onOpen()">
+        <mat-icon>chat</mat-icon>
+    </button>
+
+    <div class="chat-popup">
+        <!-- <div class="chat-area">
+            <message-list [messages]="messages"></message-list>
+        </div> -->
+        <message-list [messages]="messages"></message-list>
+        <message-form [message]="message" [messages]="messages"></message-form>
+    </div>
+</section>

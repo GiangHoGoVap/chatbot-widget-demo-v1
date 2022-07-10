@@ -1,0 +1,6 @@
+<div class="input-area">
+    <input type="text" (keyup.enter)="onSend()" [(ngModel)]="message.content">
+    <button mat-mini-fab class="sent" (click)="onSend()">
+        <mat-icon>send</mat-icon>
+    </button>
+</div>
