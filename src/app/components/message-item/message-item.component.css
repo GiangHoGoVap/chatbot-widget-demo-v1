@@ -37,3 +37,6 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     word-break: break-all;
 }
+
+.material-icons.md-36 { font-size: 36px; }
+.material-symbols-outlined.md-36 { font-size: 36px; }
