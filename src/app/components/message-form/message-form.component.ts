@@ -22,7 +22,7 @@ export class MessageFormComponent implements OnInit {
   public onSend(): void {
     this.message.timestamp = new Date();
     this.messages.push(this.message);
-    this.message = new Message('', 'assets/images/user-icon.png', false);
+    this.message = new Message('', false);
   }
 
 }

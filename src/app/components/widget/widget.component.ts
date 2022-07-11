@@ -11,8 +11,8 @@ export class WidgetComponent implements OnInit {
   public messages: Message[];
 
   constructor() { 
-    this.message = new Message('', 'assets/images/user-icon.png', false);
-    this.messages = [new Message('Welcome to AIT', 'assets/images/bot-icon.jpg', true)];
+    this.message = new Message('', false);
+    this.messages = [new Message('Welcome to AIT', true)];
   }
 
   ngOnInit(): void {
