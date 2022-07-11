@@ -1,0 +1,48 @@
+.welcome-form {
+    height: 350px;
+}
+
+.title-bar {
+    font-size: 1rem;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem;
+}
+
+.user-info {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    border-radius: 5px;
+    height: 2rem;
+    margin-bottom: 20px;
+}
+
+.custom-select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.custom-select select {
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.start-button {
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 15px;
+}
