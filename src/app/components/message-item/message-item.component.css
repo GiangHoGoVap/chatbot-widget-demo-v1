@@ -6,19 +6,19 @@
 .bot-msg .msg {
     background-color: dodgerblue;
     color: white;
-    padding: 0.75rem;
+    padding: 0.5rem;
     border-radius: 25px;
-    margin-left: 1rem;
+    margin-left: 0.75rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     word-break: break-all;
 }
 
-.avatar-style {
+/* .avatar-style {
     width: 45px;
     height: 45px;
     border-radius: 50%;
     object-fit: cover;
-}
+} */
 
 .user-msg {
     display: flex;
@@ -38,5 +38,5 @@
     word-break: break-all;
 }
 
-.material-icons.md-36 { font-size: 36px; }
-.material-symbols-outlined.md-36 { font-size: 36px; }
+/* .material-icons.md-36 { font-size: 36px; }
+.material-symbols-outlined.md-36 { font-size: 36px; } */
