@@ -10,6 +10,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MessageListComponent } from './components/message-list/message-list.component';
 import { WidgetComponent } from './components/widget/widget.component';
 import { createCustomElement } from '@angular/elements';
+import { WelcomePageComponent } from './components/welcome-page/welcome-page.component';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,13 +19,16 @@ import { createCustomElement } from '@angular/elements';
     MessageItemComponent,
     MessageFormComponent,
     MessageListComponent,
-    WidgetComponent
+    WidgetComponent,
+    WelcomePageComponent,
+    routingComponents
   ],
   imports: [
     BrowserModule,
     FormsModule, 
     MatButtonModule,
     MatIconModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

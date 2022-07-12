@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'src/app/models/message';
 
 @Component({
   selector: 'app-widget',
@@ -7,13 +6,8 @@ import { Message } from 'src/app/models/message';
   styleUrls: ['./widget.component.css']
 })
 export class WidgetComponent implements OnInit {
-  public message: Message;
-  public messages: Message[];
 
-  constructor() { 
-    this.message = new Message('', false);
-    this.messages = [new Message('Welcome to AIT', true)];
-  }
+  constructor() {}
 
   ngOnInit(): void {
   }
